@@ -93,3 +93,25 @@ a{
    color: white;
    text-align: center;
 }
+
+#generos ul a {
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    font-weight:400;
+    font-size:15px;
+    padding:10px;
+    text-transform:uppercase;
+    letter-spacing:1px;
+   }
+
+   #generos ul li {
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0;
+   }
+
+   #generos ul li:hover {
+    background:#5b78a7;
+   }
