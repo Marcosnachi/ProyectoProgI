@@ -21,7 +21,7 @@
 ul{
     
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr ;
     text-decoration: none;
     list-style-type: none;
     justify-content: center;
@@ -34,8 +34,6 @@ ul{
   
 
     
-    
-
 }
 
 
@@ -117,23 +115,9 @@ h2{
 }
 
 
+.separa{
+    background-color: black;
+    padding: 1%;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   
