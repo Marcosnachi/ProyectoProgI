@@ -1,20 +1,34 @@
 body {
-    background-size: cover;
-    min-width: 100%;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
     background-color: rgb(27, 28, 27);
     font-family: 'Magra', sans-serif;
     color:  white;
+}
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.todo{
+    width: 100%;
+    height: 100%;
+  
 }
 
 /**comienzo css header**/
 .barra {
     display: grid;
+    width: 100%;
     background-color: black;
     grid-template-rows: auto;
 }
 
 .logo {
     width: 20%;
+    float: left;
 }
 
 button{
@@ -58,7 +72,6 @@ a{
     display: block;
     margin-left: 3%;
     margin-top: 6%;
-    font-size: normal;
 }
 
 #playlistpic {
@@ -119,3 +132,31 @@ a{
    #generos ul li:hover {
     background:#5b78a7;
    }
+
+   @media all and (max-width: 600px){
+    div{
+        width:100%;
+        height:auto;
+    }
+    .logo {
+        float: left;
+        width: 35%;
+    }
+
+    #titulo {
+        font-size: x-small;
+    }
+
+    .playlist {
+        width: auto;
+        height: 100%;
+        margin: 0;
+    }
+    #generos li{
+        display: none;
+    }
+
+    .palabra {
+        font-size: x-small;
+    }
+}
