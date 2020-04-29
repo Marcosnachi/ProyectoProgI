@@ -1,0 +1,114 @@
+.logo{
+    position: absolute; 
+    margin-left: 3%;
+    margin-top: px;
+    width: 11%;
+    margin-bottom: 2px;
+    border-radius: 
+
+
+}
+
+.barra{
+    display: grid;
+    background-color: black;
+    padding: 1%;
+    
+    
+    
+}
+
+ul{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: center;
+    padding: 1px;
+    border: 0px;
+    margin-top: 2%;
+    margin-left: 32%;
+    font-size: 120%;
+   
+  
+
+    
+}
+
+
+//.home1{
+    margin-left: 120%;
+}
+
+//.home2{
+    margin-left: 63%;
+    
+
+}
+
+//.home3{
+    margin-left: 25%;
+
+}
+
+
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    text-transform: uppercase;
+
+}
+
+body{
+    background-color: gray;
+}
+
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+ 
+.titulo{
+    position: absolute;
+    bottom: 4%;
+    left: 4%;
+    top: 60%;
+    
+    
+
+    
+
+}
+
+h1{
+    color: whitesmoke;
+    font-size: 150px;
+    text-shadow: 3px 3px black;
+    
+}
+
+.malumapic{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
