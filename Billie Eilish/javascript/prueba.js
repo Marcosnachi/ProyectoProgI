@@ -1,5 +1,5 @@
 window.onload = function (){
-    fetch('https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/10583405')
+    fetch('https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/9635624')
     .then(function(response){
         return response.json();
     })
@@ -20,7 +20,7 @@ window.onload = function (){
     .catch(function(error){
         console.error(error);
     });
-    fetch('https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/10583405/top')
+    fetch('https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/9635624/top')
     .then(function(response){
         return response.json();
     })

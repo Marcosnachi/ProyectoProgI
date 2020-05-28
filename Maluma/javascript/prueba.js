@@ -7,11 +7,12 @@ window.onload = function (){
         console.log(data)
         let nombre= document.querySelector('div.infodelartista-4')
         let foto = document.querySelector('div.profile__img')
-
-        let seguidores = document.querySelector('div.oyentesdelartista_numeros')
+        let categoria = document.querySelector('div.infodelartista-3')
+        let seguidores = document.querySelector("div.infoseguidores")
         nombre.innerHTML += '<h2>' + data.name + '</h2>'
         foto.innerHTML += '<img src="' + data.picture + '">'
-        seguidores.innerHTML  += data.nb_fan
+        categoria.innerHTML += data.type
+        seguidores.innerHTML += data.nb_fan + ' followers'
 
 
     })
