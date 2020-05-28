@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: rgb(27, 28, 27);
-    font-family: 'Magra', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color:  white;
 }
 html {
@@ -18,49 +18,62 @@ html {
   
 }
 
-/**comienzo css header**/
-.barra {
-    display: grid;
-    width: 100%;
+.logo{
+    position: absolute; 
+    margin-left: 3%;
+    margin-top: px;
+    width: 12%;
+    margin-bottom: 2px;
+  }
+  
+  .barra{
     background-color: black;
-    grid-template-rows: auto;
-}
-
-.logo {
-    width: 20%;
-    float: left;
-}
-
-button{
-    background-color: transparent;
-    border: transparent;
-}
-
-
-ul {
-    display: flex; 
+    padding: 1%;
+  }
+  
+  ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    text-decoration: none;
     list-style-type: none;
-    margin-right: 3%;
-}
-
-.palabra {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-direction: row;
-    border-radius: 20px;
-    margin-top: 20px;
-    margin-right: 2%;
-    justify-content: space-around;
-    
-}
-
-a{
+    justify-content: right;
+    padding: 10px;
+    border: 0px;
+    margin-top: 2%;
+    margin-left: 32%;
+    font-size: 120%;
+    gap: 0px;
+  }
+  
+  .busqueda{
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 2%;
+    background-color: red;
+    border-radius: 2%;
+    border: solid 5px red;
+    padding: 2px;
+  }
+  
+  .home{
+    position: relative;
+    text-align: right;
+    gap: 8%;
+    margin-left: 79%;
+    margin-right: 5%;
+    font-family: 'Magra', sans-serif;
+    margin-top: 30px;
+  }
+  
+  .search{
+    text-align: center;
+  }
+  
+  a {
     text-decoration: none;
     color: white;
-}
-
-/**fin css header**/
+    text-transform: uppercase;
+  }
 
 #header-playlist {
     display: flex;
@@ -72,6 +85,10 @@ a{
     display: block;
     margin-left: 3%;
     margin-top: 6%;
+}
+
+button {
+    background-color: transparent;
 }
 
 #playlistpic {
