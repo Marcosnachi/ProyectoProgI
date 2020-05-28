@@ -146,7 +146,7 @@
       z-index: 0;
       content: ' ';
       opacity: 0.15;
-      background-image: url(../IMG/maluma.jpg);
+      background-image: url(../IMG/bad-bunny-cuarentena-foto-archivo-696x392_6434294_20200510194352.jpg);
       background-repeat: no-repeat;
       background-size: cover;
       background-position: top;
@@ -212,7 +212,7 @@
       width: 20%;
       z-index: 1;
       padding: 15px;
-      text-align: center;
+      text-align: right;
       color: #aaaaaa;
       font-weight: 100;
       font-size: 16px;
@@ -225,6 +225,18 @@
       letter-spacing: 1px;
     }
    
+    .titulodealbum {
+      font-size: x-small;
+      color: #aaaaaa;
+      text-transform: uppercase;
+    }
+
+    .rereproduccionesdecancion {
+      font-size: x-small;
+      color: #aaaaaa;
+      text-transform: uppercase;
+    }
+
     .contenidodelartista {
       padding: 15px;
     }
