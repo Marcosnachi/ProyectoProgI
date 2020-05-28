@@ -22,12 +22,21 @@ window.onload = function (){
     .then(function(response){
         return response.json();
     })
-    .then(function(data){
-        console.log(data)
-        let imgtracks = document.querySelectorAll ('div.imagenesdecancion')
-        let nombretracks = document.querySelectorAll ('div.titulodecancion')
-        nombretracks.innerHTML += '<p>' + data.title + '</p>'
-        imgtracks.innerHTML += '<img src=' + data.album.cover + '"/>'
+    .then(function(datos){
+        console.log(datos)
+        let canciones = document.querySelector('div.canciones')
+        for (unaCancion of datos.data) {
+            canciones.innerHTML += `<div class="cancionindividual">
+
+            <div class="imagenesdecancion"><img src="${unaCancion.album.cover}" alt="${unaCancion.album.title}"> </div>
+
+            <div class="titulodecancion">${unaCancion.title} </div>
+            <div class="titulodealbum">${unaCancion.album.title} </div>
+            <div class="rereproduccionesdecancion">${unaCancion.duration} s</div>
+
+        </div>`
+        }
+
 
     })
     .catch(function(error){

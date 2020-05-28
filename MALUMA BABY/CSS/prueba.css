@@ -225,6 +225,18 @@
       letter-spacing: 1px;
     }
    
+    .titulodealbum {
+      font-size: x-small;
+      color: #aaaaaa;
+      text-transform: uppercase;
+    }
+
+    .rereproduccionesdecancion {
+      font-size: x-small;
+      color: #aaaaaa;
+      text-transform: uppercase;
+    }
+
     .contenidodelartista {
       padding: 15px;
     }
