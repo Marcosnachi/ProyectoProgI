@@ -77,28 +77,15 @@ a {
 }
 
 
-b.ody{
-    background: url(../img/fondo7.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
-}
-
-
 body{
-    background: url(../img/fondo11.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-color: #181818;
 }
 
 
-bo/dy{
-    background-color: rgba(0, 0, 0, 0.849);
-}
 
 .zoom{
     background-color: rgba(100, 100, 
@@ -112,16 +99,22 @@ bo/dy{
     
 }
 
+.text {
+    position: absolute;
+    margin-top: 100%;
+    text-align: center
+}
+
 .photo-container{
     position: relative;
     top: 0;
-    
+    display: inline-flex;
 }
 
 h2{
    margin-top: 2%;
    margin-left: 1%;
-   margin-bottom: 2%;
+   margin-bottom: 1%;
    color: white;
    font-family: 'Arvo', serif;
    text-shadow: 2px 2px red;
@@ -134,6 +127,7 @@ h2{
         -moz-transition: width 2s, height 2s, -moz-transform 2s;
         -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
         -o-transition: width 2s, height 2s,-o-transform 2s;
+
 }
 
 .photo-container img:hover {
@@ -148,26 +142,28 @@ h3{
     margin-top: 0%;
     font-family:  'Raleway', sans-serif;
     color: white ;
-    font-size: 120%;
+    font-size: 100%;
     text-align: center;
+    text-transform: uppercase;
+    display: flex;
 }
 
 
 .playlistsec{
    
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
+    display: block;
     gap: 5%;
     margin-left: 0%;
-    margin-bottom: 0%;
+    margin-bottom: 15%;
     text-align: center;
 }
 
-.sep/ara{
-    background-color: rgba(167, 0, 0, 0.418);
-    padding: 1%;
-    height: 1px;    
+h2 {
+    display: block;
+    text-align: left;
+    text-transform: uppercase;
 }
+
 
 .photo{
     border-radius: 25%;
