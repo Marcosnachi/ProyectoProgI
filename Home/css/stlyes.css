@@ -12,7 +12,7 @@
     padding: 1%;
 }
 
-ul{
+ul .home{
     
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr ;
@@ -60,24 +60,21 @@ a {
 .footer{
     background-color: black;
     padding: 1%;
+    font-family: 'Magra', sans-serif;
+}
+
+.footer ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    text-decoration: none;
+    list-style-type: none;
+
 }
 
 .deezer{
-    position: absolute; 
-    margin-left: 3%;
-    margin-top: 1%;
-    width: 15%;
+    width: 22%;
     margin-bottom: 0px;
-}
-
-.ulfooter{
-    margin-left: 32%;
-    font-family: 'Magra', sans-serif;
-    gap: 5px ;   
-}
-
-.footer img{
-    size: 30%;
+    text-align: left;
 }
 
 
@@ -162,21 +159,23 @@ body{
     padding: 50px;
     width: 280px;
     text-align: center;
-    
-    
 }
 
-.text {
+h3{
     position: absolute;
-    margin-top: 100%;
-    text-align: center
+    margin-top: 10%;
+    font-family:  'Raleway', sans-serif;
+    color: white ;
+    font-size: 90%;
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
 }
+
 
 .photo-container{
     position: relative;
-    top: 0;
     display: inline-flex;
-
 }
 
 h2{
@@ -205,24 +204,18 @@ h2{
         -o-transform : scale(1.2);        /* Opera */
 }
 
-h3{
-    position: relative;
-    margin-top: 5%;
-    font-family:  'Raleway', sans-serif;
-    color: white ;
-    font-size: 100%;
-    text-align: center;
-    text-transform: uppercase;
-    display: flex;
-}
-
 
 .playlistsec{
-   
     display: block;
-    gap: 5%;
-    margin-left: 0%;
-    margin-bottom: 15%;
+    margin-left: 0;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+.logos-redes {
+    color: white;
+    list-style-type: none;
+    display: flex;
     text-align: center;
 }
 
