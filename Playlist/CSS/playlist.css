@@ -12,6 +12,51 @@ html {
     height: 100%;
 }
 
+.busqueda{
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 2%;
+    background-color: red;
+    border-radius: 2%;
+    border: solid 5px #ff0000;
+    padding: 2px;
+    
+
+
+
+}
+
+.boton{
+
+    margin-left: 93%;
+    padding: 25px;
+    margin-top: 1px;
+    background-color: black;
+    
+    
+    
+}
+
+.botonon{
+    color:whitesmoke;
+    
+   
+}
+
+.butonclase{
+    border-radius: 4%;
+}
+
+.botonbus{
+    color:black ;
+    background-color: white;
+    border-radius: 50%;
+}
+
+
+
+
+
 .todo{
     width: 100%;
     height: 100%;
@@ -62,7 +107,7 @@ html {
     margin-left: 79%;
     margin-right: 5%;
     font-family: 'Magra', sans-serif;
-    margin-top: 30px;
+    margin-top: 23px;
   }
   
   .search{
