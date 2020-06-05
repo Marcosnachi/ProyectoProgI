@@ -1,5 +1,9 @@
 window.onload = function (){
-    fetch('https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/9635624')
+let queryString = window.location.search
+let objetoQuery= new URLSearchParams(queryString);
+let elId = objetoQuery.get('id');
+
+    fetch('https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/' + elId)
     .then(function(response){
         return response.json();
     })
@@ -15,12 +19,11 @@ window.onload = function (){
         seguidores.innerHTML += data.nb_fan + ' followers'
 
 
-
     })
     .catch(function(error){
         console.error(error);
     });
-    fetch('https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/9635624/top')
+    fetch('https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/' + elId ,'/top')
     .then(function(response){
         return response.json();
     })

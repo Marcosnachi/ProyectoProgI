@@ -23,7 +23,7 @@ function showSlides() {
         div.innerHTML += `
             <div class="photo-container">
                
-            <a href="${artistas.link}"><img src="${artistas.picture}" 
+            <a href="../detalle/detalle.html?=id${artistas.id}"><img src="${artistas.picture}" 
             alt="${artistas.name}"></a>
 
             <div class="text"><h3> ${artistas.name}</h3></div>
@@ -35,28 +35,7 @@ function showSlides() {
         }
 
     })
-    fetch('https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart/0/playlists')
-    .then(function(response){
-        return response.json();
-    })
-    .then(function(datos){
-        for (playlists of datos.data) {
-        let div = document.getElementById('playlists')
-        div.innerHTML += `
-            <div class="photo-container">
-               
-            <a href="${playlists.link}"><img src="${playlists.picture}" 
-            alt="${playlists.title}"></a>
 
-            <div class="text"><h3> ${playlists.title}</h3></div>
-            </div>
-
-            `
-
-
-        }
-
-    })
 
     fetch('https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart/0/albums')
     .then(function(response){
@@ -68,7 +47,7 @@ function showSlides() {
         div.innerHTML += `
             <div class="photo-container">
                
-            <a href="${albums.link}"><img src="${albums.cover}" 
+            <a href="../detalle/detalle.html?=id${albums.id}"><img src="${albums.cover}" 
             alt="${albums.title}"></a>
 
             <div class="text"><h3> ${albums.title}</h3></div>
@@ -92,7 +71,7 @@ function showSlides() {
         div.innerHTML += `
             <div class="photo-container">
                
-            <a href="${tracks.link}"><img src="${tracks.album.cover}" 
+            <a href="../detalle/detalle.html?=id${tracks.id}"><img src="${tracks.album.cover}" 
             alt="${tracks.title}"></a>
 
             <div class="text"><h3> ${tracks.title}</h3></div>
