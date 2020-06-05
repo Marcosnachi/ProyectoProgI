@@ -25,6 +25,7 @@
     gap: 0px;
   }
   
+
   .busqueda{
     position: absolute;
     margin-left: 30%;
@@ -34,6 +35,35 @@
     border: solid 5px red;
     padding: 2px;
   }
+
+  
+.boton{
+
+  margin-left: 93%;
+  padding: 25px;
+  margin-top: 1px;
+  background-color: black;
+  
+  
+  
+}
+
+.botonon{
+  color:whitesmoke;
+  
+ 
+}
+
+.butonclase{
+  border-radius: 4%;
+}
+
+.botonbus{
+  color:black ;
+  background-color: white;
+  border-radius: 50%;
+}
+
   
   .home{
     position: relative;
