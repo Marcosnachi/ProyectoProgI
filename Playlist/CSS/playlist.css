@@ -154,21 +154,24 @@ button {
 
 }
 
-.footer {
+.footer{
     background-color: black;
+    padding: 1%;
+    font-family: 'Magra', sans-serif;
 }
 
-#deezer {
-   width: 8%;
-   display: block;
-   margin: auto;
+.footer ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    text-decoration: none;
+    list-style-type: none;
+
 }
 
-
-#alumnos {
-   font-size: x-small;
-   color: white;
-   text-align: center;
+.deezer{
+    width: 22%;
+    margin-bottom: 0px;
+    text-align: left;
 }
 
 
