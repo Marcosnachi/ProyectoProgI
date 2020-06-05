@@ -23,12 +23,11 @@ let elId = objetoQuery.get('id');
     .catch(function(error){
         console.error(error);
     });
-    fetch('https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/' + elId ,'/top')
+    fetch('https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/' + elId + '/top')
     .then(function(response){
         return response.json();
     })
     .then(function(datos){
-        console.log(datos)
         let canciones = document.querySelector('div.canciones')
         for (unaCancion of datos.data) {
             canciones.innerHTML += `<div class="cancionindividual">

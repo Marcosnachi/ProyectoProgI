@@ -23,7 +23,7 @@ function showSlides() {
         div.innerHTML += `
             <div class="photo-container">
                
-            <a href="../detalle/detalle.html?=id${artistas.id}"><img src="${artistas.picture}" 
+            <a href="../detalle/detalle.html?id=${artistas.id}"><img src="${artistas.picture}" 
             alt="${artistas.name}"></a>
 
             <div class="text"><h3> ${artistas.name}</h3></div>
@@ -47,7 +47,7 @@ function showSlides() {
         div.innerHTML += `
             <div class="photo-container">
                
-            <a href="../detalle/detalle.html?=id${albums.id}"><img src="${albums.cover}" 
+            <a href="../detalle/detalle.html?id=${albums.id}"><img src="${albums.cover}" 
             alt="${albums.title}"></a>
 
             <div class="text"><h3> ${albums.title}</h3></div>
@@ -71,7 +71,7 @@ function showSlides() {
         div.innerHTML += `
             <div class="photo-container">
                
-            <a href="../detalle/detalle.html?=id${tracks.id}"><img src="${tracks.album.cover}" 
+            <a href="../detalle/detalle.html?id=${tracks.id}"><img src="${tracks.album.cover}" 
             alt="${tracks.title}"></a>
 
             <div class="text"><h3> ${tracks.title}</h3></div>
