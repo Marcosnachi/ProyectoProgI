@@ -10,8 +10,36 @@
     background-color: black;
     padding: 1%;
   }
-  
-  ul{
+
+/*footer*/
+.logos-redes {
+    color: white;
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+}
+
+.footer{
+  background-color: black;
+  padding: 1%;
+  font-family: 'Magra', sans-serif;
+}
+
+.footer ul{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  text-decoration: none;
+  list-style-type: none;
+
+}
+.deezer{
+  width: 22%;
+  margin-bottom: 0px;
+  text-align: left;
+}
+/*fin footer*/
+
+ul .home{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr ;
     text-decoration: none;
@@ -66,19 +94,6 @@
     width: 100%;
   }
   
-  .deezer{
-    position: fixed; 
-    margin-left: 3%;
-    margin-top: -1%;
-    width: 15%;
-    margin-bottom: 0px;
-  }
-  
-  .ulfooter{
-    margin-left: 32%;
-    font-family: 'Magra', sans-serif;
-    gap: 6px ;   
-  }
   
   body {
     background: #181818;
@@ -114,6 +129,8 @@
           margin-left: 1.5%;
           margin-top: 5%;
       }
+
+     
       
       .footer li {
           font-size: x-small;
@@ -302,6 +319,7 @@
     @media (max-width: 522px) {
       .headerdelartista {
         height: auto;
+        width: auto;
         flex-flow: column wrap;
       }
       .headerdelartista .infodelartista {
