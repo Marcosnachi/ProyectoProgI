@@ -16,7 +16,7 @@ window.onload = function (){
             let botones = document.querySelector('div.infodelartista-5')
             nombre.innerHTML += `<h2> ${data.title} </h2>`
             foto.innerHTML += '<img src="' + data.cover + '">'
-            categoria.innerHTML += data.type
+            categoria.innerHTML += `${data.type} | fecha de lanzamiento: ${data.release_date}`
             seguidores.innerHTML += data.fans + ' followers'
             botones.innerHTML += `<a href="../detalle/detalle.html?id=${data.artist.id}"><button class="cosotransparente">Ir al artista<i class="rereproducir"></i></button></a>`
             
@@ -33,7 +33,7 @@ window.onload = function (){
         .then(function(datos){
             let canciones = document.querySelector('div.canciones')
             for (unaCancion of datos.tracks.data) {
-                canciones.innerHTML += `<div class="cancionindividual">
+                canciones.innerHTML += `<a href="../detalle/detalletracks.html?id=${unaCancion.id}"><div class="cancionindividual">
     
                 <div class="imagenesdecancion"><img src="${datos.cover}" alt="${unaCancion.title}"> </div>
     
@@ -41,7 +41,7 @@ window.onload = function (){
                 <div class="titulodealbum">${unaCancion.artist.name} </div>
                 <div class="rereproduccionesdecancion">${unaCancion.duration} s</div>
     
-            </div>`
+            </div></a>`
             }
     
     
