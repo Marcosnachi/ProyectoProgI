@@ -12,7 +12,7 @@
     padding: 1%;
 }
 
-ul .home{
+.home{
     
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr ;
@@ -49,6 +49,33 @@ ul .home{
 
 .search{
     text-align: center;
+}
+
+.boton{
+
+    margin-left: 93%;
+    padding: 25px;
+    margin-top: 1px;
+    background-color: black;
+    
+    
+    
+}
+
+.botonon{
+    color:whitesmoke;
+    
+   
+}
+
+.butonclase{
+    border-radius: 4%;
+}
+
+.botonbus{
+    color:black ;
+    background-color: white;
+    border-radius: 50%;
 }
 
 a {
@@ -212,12 +239,39 @@ h2{
     text-align: center;
 }
 
-.logos-redes {
-    color: white;
-    list-style-type: none;
-    display: flex;
-    text-align: center;
+
+.ulfooter{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 32%;
+    font-family: 'Magra', sans-serif;
+    gap: 5px ;
+    
+    
 }
+
+.deezer{
+    position: absolute; 
+    margin-left: 3%;
+    margin-top: 0%;
+    width: 15%;
+    
+    
+
+}
+
+.footer{
+    
+    background-color: black;
+    padding: 1%;
+    
+    
+
+}
+
+
+
+
 
 h2 {
     display: block;

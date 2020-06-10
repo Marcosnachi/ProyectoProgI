@@ -122,7 +122,8 @@ text-align: left;
     font-family: 'Roboto', sans-serif;
   }
   body a {
-    color: #aaaaaa;
+    color: white;
+    
   }
   body a:hover {
     color: #c8c8c8;
@@ -461,7 +462,7 @@ text-align: left;
       }
     }
 
-    button {
+    .button {
       border-radius: 20px;
       border: none;
       padding: 5px 15px;
