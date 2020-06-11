@@ -189,6 +189,7 @@ text-align: left;
       background-position: top;
     }
 
+
     .headerdelartista .infoseguidores {
       color: #aaaaaa;
       text-transform: uppercase;
@@ -205,6 +206,7 @@ text-align: left;
       flex-flow: row wrap;
       align-items: flex-end;
     }
+    
   
     .headerdelartista .infodelartista .profile__img img {
       width: 150px;
@@ -223,6 +225,11 @@ text-align: left;
       font-size: 36px;
       font-weight: 100;
       padding: 0 0 10px 0;
+      display: inline-flex;
+    }
+    .artist-name {
+      font-size: 9px;
+      margin-top: 0;
     }
     .headerdelartista .infodelartista-5 {
       display: flex;

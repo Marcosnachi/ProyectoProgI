@@ -10,7 +10,7 @@ window.onload = function () {
         div.innerHTML += `
             <div class="photo-container">
                
-            <a href="www.deezer.com/genre"><img src="${generos.picture}" 
+            <a href="../detalle/detallegeneros.html?id=${generos.id}"><img src="${generos.picture}" 
             alt="${generos.name}"></a>
 
             <div class="text"><h3> ${generos.name}</h3></div>

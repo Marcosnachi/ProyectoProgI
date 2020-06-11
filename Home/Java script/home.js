@@ -42,12 +42,13 @@ function showSlides() {
         return response.json();
     })
     .then(function(datos){
+        console.log(datos)
         for (albums of datos.data) {
         let div = document.getElementById('albums')
         div.innerHTML += `
             <div class="photo-container">
                
-            <a href="../detalle/detalle.html?id=${albums.id}"><img src="${albums.cover}" 
+            <a href="../detalle/detallealbum.html?id=${albums.id}"><img src="${albums.cover}" 
             alt="${albums.title}"></a>
 
             <div class="text"><h3> ${albums.title}</h3></div>
@@ -71,7 +72,7 @@ function showSlides() {
         div.innerHTML += `
             <div class="photo-container">
                
-            <a href="../detalle/detalle.html?id=${tracks.id}"><img src="${tracks.album.cover}" 
+            <a href="../detalle/detalletracks.html?id=${tracks.id}"><img src="${tracks.album.cover}" 
             alt="${tracks.title}"></a>
 
             <div class="text"><h3> ${tracks.title}</h3></div>
