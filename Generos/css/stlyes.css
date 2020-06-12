@@ -76,6 +76,9 @@ a {
     margin-bottom: 0px;
     text-align: left;
 }
+input {
+    border-color: transparent;
+}
 
 
 body{

@@ -25,6 +25,7 @@ window.onload = function (){
         .then(function(datos){
         console.log (datos)
 
+<<<<<<< HEAD
             let resultados = document.querySelector('.photo-container')
             for (let resultado of datos.data)
                 resultados.innerHTML += `
@@ -50,3 +51,23 @@ window.onload = function (){
     
             
         }
+=======
+        
+            .then(function(datos){
+                console.log(datos)
+                for (albums of datos.data) {
+                let div = document.getElementById('albums')
+                div.innerHTML += `
+                    <div class="photo-container">
+                       
+                    <a href="../detalle/detalletracks.html?id=${albums.id}"><img src="${albums.cover}" 
+                    alt="${albums.title}"></a>
+                    <div class="text"><h3> ${albums.title}</h3></div>
+                    </div>
+                    `
+        
+        
+                }
+        
+            })}
+>>>>>>> 6b153664ba4811d989ccc998688b0245c6bb56a3
