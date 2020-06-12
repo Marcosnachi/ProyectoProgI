@@ -25,7 +25,7 @@ window.onload = function (){
                 div.innerHTML += `
                     <div class="photo-container">
                        
-                    <a href="../detalle/detallealbum.html?id=${albums.id}"><img src="${albums.cover}" 
+                    <a href="../detalle/detalletracks.html?id=${albums.id}"><img src="${albums.cover}" 
                     alt="${albums.title}"></a>
                     <div class="text"><h3> ${albums.title}</h3></div>
                     </div>
