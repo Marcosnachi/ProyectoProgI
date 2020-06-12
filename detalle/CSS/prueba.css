@@ -447,17 +447,5 @@ text-align: left;
       margin-bottom: 10px;
       }
 
-@media (max-width: 750px){
 
-  .barra {
-    height: 30%;
-  }
-  .canciones{
-    font-size: xx-large;
-  }
-  div .profile__img {
-    size: 120px;
-  }
-
-}
   
