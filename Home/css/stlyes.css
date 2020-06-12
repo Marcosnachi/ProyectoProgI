@@ -142,6 +142,16 @@ body{
 .prev:hover, .next:hover{
     background-color:rgba(0,0,0,0.8);
 }
+
+#hkk{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 1000%;
+}
+
+
+
+
 .text{
     color:#f2f2f2;
     font-size:15px;
