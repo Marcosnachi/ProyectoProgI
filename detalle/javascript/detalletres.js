@@ -28,6 +28,7 @@ window.onload = function (){
         fetch('https://cors-anywhere.herokuapp.com/https://api.deezer.com/track/' + elId)
         .then(function(response){
             return response.json();
+
         })
         .then(function(datos){
             let canciones = document.querySelector('div.canciones')
@@ -41,7 +42,8 @@ window.onload = function (){
     
             </div>`
 
-    
+            let audio = document.querySelector('#audio')
+            audio.src = datos.preview
     
         })
         .catch(function(error){

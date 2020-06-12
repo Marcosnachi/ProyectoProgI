@@ -476,6 +476,11 @@ text-align: left;
       cursor: pointer;
     }
     
+.boton-mas{
+  color: white;
+  background-color: transparent;
+  border-color: transparent;
+}
     .cosorojo {
       background: #d71e1e;
       color: white;
