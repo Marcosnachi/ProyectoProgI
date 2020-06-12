@@ -2,15 +2,14 @@
 <html>
 
 <head>
-  <title> Tracks </title>
- <link rel= "stylesheet" href="../detalle/CSS/prueba.css">
+  <title> Playlist </title>
+ <link rel= "stylesheet" href="../Playlist/CSS/playlist.css">
  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" >
  <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap" rel="stylesheet">
  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
  <link href="https://fonts.googleapis.com/css2?family=Magra:wght@700&display=swap" rel="stylesheet">
- <script src="../detalle/javascript/detalletres.js"></script>
-
+ <script src="../Playlist/javascript/playlist.js"></script>
 </head>
 
 <body>
@@ -24,14 +23,14 @@
      
 
 
-      <div class="buscadora">
-        <section class="busqueda">
-        <form action="" method="">		    
+<div class="buscadora">
+      <section class="busqueda">
+      <form action="" method="">		    
             <input type="search" class="butonclase" placeholder="Buscar...">	    	
             <button class="botonbus">Search</i></button>
-        </form>
-    </section>
-    </div>
+      </form>
+</section>
+</div>
 
 
 
@@ -39,7 +38,7 @@
       <ul class="home">
 
         <li>  <a href="../Home/index.html">HOME</a></li>
-        <li> <a href="../Playlist/playlist.html">PLAYLIST</a></li>
+        <li> <a href="../Playlist/playlist2.html">PLAYLIST</a></li>
         <li> <a href="../Generos/generos.html">GENEROS</a></li>
 
       </ul>
@@ -48,30 +47,25 @@
 
   </header>
 
-  <div class="partedelmedio">
-
-      <div>
-
         <div class="headerdelartista">
 
           <div class="infodelartista">
 
             <div class="profile__img">
-              
+              <img src="../Playlist/img/hvo8k2we2oe41.jpg" alt="">
             </div>
 
             <div class="infodelartista-2">
-              <div class="infoseguidores"></div>
-              <div class="infodelartista-3"></div>
-              <div class="infodelartista-4"></div>
-
+              <h2>Tu playlist!</h2>
               <div class="infodelartista-5">
                 <button class="cosorojo">
-                 <i class="rereproducir"></i> 
+                  <i class="rereproducir"></i> 
                   Reproducir
                 </button>
-                <button type="button" id= 'botonAddTo'class="boton-mas" data-toggle="dropdown">Agregar a playlist<span class="caret"></span></button>
-
+                <button class="cosotransparente">
+                  <i class="rereproducir"></i> 
+                  Eliminar todas las canciones
+                </button>
               </div>
 
             </div>
@@ -80,31 +74,13 @@
 
         </div>
 
-        <div class="contenidodelartista">
+<div class="canciones">
 
-          <div class="contenidotabulado">
 
-    
-            <div role="tabpanel" class="paneltabulado" id="repasogeneral-artista">
+                  
+</div>
+                  
 
-              <div class="repasogeneral">
-
-                <div class="artista-repasogeneral">
-
-                  <div class="tituloselecto">Canción</div>
-
-                  <div class="canciones">
-
-                    
-
-                      
-
-                    </div>
-
-                    <audio id='audio' controls src=""></audio>
-
-                    </div>
-    </div>
 
   <footer> 
     <div class="footer">
@@ -126,7 +102,7 @@
     </div>         
   </footer>
 
-  </body>
+
 </body>
 
 </html>

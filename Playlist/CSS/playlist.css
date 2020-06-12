@@ -100,10 +100,23 @@ body a:hover {
   color: #c8c8c8;
 }
 
+.home {
+  color: white;
+  text-align: right;
+  list-style-type: none;
+  font-family: 'Magra', sans-serif;;
+}
+
 button {
   border-color: transparent;
   background-color: transparent;
   color: white;
+}
+.cosotransparente {
+  background-color: white;
+  color: red;
+  opacity: 0.8;
+
 }
   
 .headerdelartista {
@@ -121,21 +134,7 @@ button {
   justify-content: space-between;
   align-items: flex-end;
 }
-    
-.headerdelartista:before { 
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 0;
-  content: ' ';
-  opacity: 0.15;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
-}
+
     
 .headerdelartista .infodelartista {
   padding: 15px;
@@ -170,7 +169,6 @@ button {
   margin-top: 50px;
 }
 
-
 .titulodealbum {
   font-size: x-small;
   color: #aaaaaa;
@@ -186,6 +184,7 @@ button {
   flex-flow: column wrap;
   margin-bottom: 15px;
 }
+
 .canciones .cancionindividual {
   border-top: 1px solid #282828;
   height: 42px;
@@ -247,11 +246,3 @@ button:hover {
   border: 1px solid #d71e1e;
 }
 
-@media (max-width: 600px){
-  
-}
-
-
-
-
-  

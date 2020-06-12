@@ -21,6 +21,22 @@ window.onload = function (){
             botones.innerHTML += `<a href="../detalle/detalle.html?id=${data.artist.id}"><button class="cosotransparente">Ir al artista<i class="rereproducir"></i></button></a>
             <a href="../detalle/detallealbum.html?id=${data.album.id}"><button class="cosotransparente">Ir al álbum<i class="rereproducir"></i></button></a>`
     
+
+            let añadir = document.querySelector('#botonAddTo')
+            añadir.onclick = function () {
+               let cancionesEnLocal = window.localStorage.getItem('cancion')
+                let cancionesArrayEnLocal = JSON.parse(cancionesEnLocal)
+
+                if (!cancionesArrayEnLocal) {
+                    cancionesArrayEnLocal = []
+                }
+
+                let cancionesPlaylist = [];
+                cancionesArrayEnLocal.push(data)
+            window.localStorage.setItem('cancion', JSON.stringify(cancionesArrayEnLocal))
+            console.log(cancionesEnLocal)
+            console.log(cancionesArrayEnLocal)
+            }
         })
         .catch(function(error){
             console.error(error);
@@ -44,6 +60,8 @@ window.onload = function (){
 
             let audio = document.querySelector('#audio')
             audio.src = datos.preview
+
+            
     
         })
         .catch(function(error){

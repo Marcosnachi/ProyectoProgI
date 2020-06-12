@@ -419,7 +419,8 @@ text-align: left;
 .boton-mas{
   color: white;
   background-color: transparent;
-  border-color: transparent;
+  font-size: smaller;
+  border: 1px solid #c8c8c8;
 }
     .cosorojo {
       background: #d71e1e;
