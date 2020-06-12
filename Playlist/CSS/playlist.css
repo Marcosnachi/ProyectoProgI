@@ -136,6 +136,14 @@ html {
     margin-top: 6%;
 }
 
+input {
+    border-color: transparent;
+}
+
+.botonbus {
+    border-radius: 0%;
+}
+
 button {
     background-color: transparent;
     border-color: transparent;

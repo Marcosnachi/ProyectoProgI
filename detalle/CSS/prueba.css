@@ -132,31 +132,7 @@ text-align: left;
   .artist {
     height: 617px;
     overflow-y: scroll;
-  }
-    
-    @media all and (max-width: 600px){
-      .barra {
-          display: grid;
-          font-size: x-small;
-          width: 100%;
-      }
-      .busqueda {
-          display: none;
-      }
-    
-      div ul {
-          margin-left: 20%;
-      }
-    
-      .logo {
-          margin-left: 1.5%;
-          margin-top: 5%;
-      }
-      
-      .footer li {
-          font-size: x-small;
-      }
-    }
+ }
   
     .headerdelartista {
       height: 320px;
@@ -327,45 +303,7 @@ text-align: left;
     .contenidodelartista .overview__related {
       width: 30%;
     }
-    @media (max-width: 1024px) {
-      .contenidodelartista .artista-repasogeneral {
-        width: 100%;
-      }
-      .contenidodelartista .overview__related {
-        width: 100%;
-        margin-top: 15px;
-      }
-    }
-    @media (max-width: 768px) {
-      .contenidodelartista .artista-repasogeneral {
-        padding-right: 0;
-      }
-    }
-    
-    @media (max-width: 522px) {
-      .headerdelartista {
-        height: auto;
-        flex-flow: column wrap;
-      }
-      .headerdelartista .infodelartista {
-        margin-top: 0;
-        width: 100%;
-        display: flex;
-        flex-flow: column wrap;
-        align-items: center;
-        text-align: center;
-      }
-      .headerdelartista .infodelartista .profile__img {
-        margin-right: 0;
-      }
-      .headerdelartista .infodelartista-3 {
-        margin-top: 10px;
-      }
-      .headerdelartista .oyentesdelartista {
-        width: 100%;
-        text-align: center;
-      }
-
+ 
     .cosotransparente {
       background: none;
       color: #c8c8c8;
@@ -384,7 +322,6 @@ text-align: left;
       margin-bottom: 10px;
       }
 
-    }
     .canciones {
       display: flex;
       flex-flow: column wrap;
@@ -457,10 +394,13 @@ text-align: left;
       color: #aaaaaa;
     }
     
-    @media (max-width: 1200px) {
-      .canciones .titulodecancion {
-        width: auto !important;
-      }
+    
+    .botonbus {
+      border-color: transparent;
+      border-radius: 0%;
+    }
+    input {
+      border-color: transparent;
     }
 
     .button {
@@ -475,7 +415,7 @@ text-align: left;
     button:hover {
       cursor: pointer;
     }
-    
+
 .boton-mas{
   color: white;
   background-color: transparent;
@@ -494,15 +434,30 @@ text-align: left;
       color: #c8c8c8;
       border: 1px solid #c8c8c8;
     }
-    .cosotransparente:hover {
-      border-color: white;
-      color: white;
-    }
+.cosotransparente:hover {
+    border-color: white;
+    color: white;
+  }
 
-    .tituloselecto {
+.tituloselecto {
       text-transform: uppercase;
       color: #aaaaaa;
       letter-spacing: 1.25px;
       font-size: 13.2px;
       margin-bottom: 10px;
       }
+
+@media (max-width: 750px){
+
+  .barra {
+    height: 30%;
+  }
+  .canciones{
+    font-size: xx-large;
+  }
+  div .profile__img {
+    size: 120px;
+  }
+
+}
+  
