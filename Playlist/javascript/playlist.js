@@ -24,14 +24,14 @@ for (cancion of canciones) {
       `
     }
 
-/*
+
     let eliminarTodo = document.querySelector('.cosotransparente')
-    let sacar = document.querySelector('#eliminar');
-    sacar.clickon = function(){
-        localStorage.removeItem('cancion');
-    }
-    eliminarTodo.clickon = function(){
+    eliminarTodo.onclick = function(){
         localStorage.clear('cancion');
+    }
+    /*let sacar = document.querySelector('.btn btn-default dropdown-toggle');
+    sacar.onclick = function(){
+        localStorage.removeItem('cancion');
     }
 */
 }
