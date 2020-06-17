@@ -146,11 +146,6 @@ body{
     background-color:rgba(0,0,0,0.8);
 }
 
-#hkk{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    width: 1000%;
-}
 
 
 
@@ -218,8 +213,24 @@ h3{
     display: inline-flex;
 }
 
+.photo-container-resultados {
+    padding-inline-start: 8px;
+    margin-bottom: 20px;
+    position: relative;
+}
 
-h2{
+
+
+#hkk{
+    display: block
+}
+
+#albums-text {
+    font-size: smaller;
+    text-align: center;
+}
+
+h2 {
    margin-top: 2%;
    margin-left: 1%;
    margin-bottom: 1%;
@@ -333,12 +344,80 @@ h2 {
         display: block;
         text-align: center;
     }
-    
+    .photo-container{
+        margin: 20px;
+    }
     .footer li {
-        font-size: x-small;
+        font-size: xx-small
+    }
+    div .iconos ul li {
+        display: none;
+    }
+    .footer img {
+        margin-top: 25px;
+    }
+    .slideshow-container {
+        margin-left: 40px;
+        size: 200px;
     }
     
 }
 
+@media (min-width: 600px) and (max-width: 850px) {
+    .barra {
+        display: grid;
+        font-size: small;
+        width: 100%;
+    }
+    .barra img{
+        margin-top: 0;
+    }
+    .busqueda {
+        display: none;
+    }
+    ul li .home {
+        font-size: xx-small;
+    }
+
+    div ul {
+        margin-left: 20%;
+    }
+
+    .logo {
+        margin-left: 1.5%;
+        margin-top: 5%;
+    }
+
+    h2 {
+        font-size: medium;
+        margin-top: 5%;
+        margin-bottom: 2%;
+        margin-left: 0;
+    }
+    h3 {
+        font-size: small;
+    }
+
+    .playlistsec {
+        display: block;
+        text-align: center;
+    }
+    .photo-container{
+        margin-bottom: 28px;
+    }
+    .footer li {
+        font-size: xx-small
+    }
+    div .iconos ul li {
+        display: none;
+    }
+    .footer img {
+        margin-top: 25px;
+    }
+    .slideshow-container {
+        margin-left: 40px;
+    }
+    
+}
 
    

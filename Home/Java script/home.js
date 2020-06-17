@@ -51,7 +51,7 @@ function showSlides() {
             <a href="../detalle/detallealbum.html?id=${albums.id}"><img src="${albums.cover}" 
             alt="${albums.title}"></a>
 
-            <div class="text"><h3> ${albums.title}</h3></div>
+            <div id= "albums-text" class="text"><h3> ${albums.title}</h3></div>
             </div>
 
             `

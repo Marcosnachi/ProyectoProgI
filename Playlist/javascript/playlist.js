@@ -29,10 +29,10 @@ for (cancion of canciones) {
     eliminarTodo.onclick = function(){
         localStorage.clear('cancion');
     }
-    /*let sacar = document.querySelector('.btn btn-default dropdown-toggle');
+    let sacar = document.querySelector('.btn btn-default dropdown-toggle');
     sacar.onclick = function(){
-        localStorage.removeItem('cancion');
+        localStorage.removeItem(cancion);
     }
-*/
+
 }
 

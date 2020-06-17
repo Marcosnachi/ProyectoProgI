@@ -208,56 +208,112 @@ h2 {
     border: solid 5px #ff0000;
 }
 
-@media all and (max-width: 550px){
+@media all and (max-width: 600px){
 
     .barra {
         display: grid;
-        font-size: large;
         width: 100%;
-        height: 50%;
-        margin: 0;
     }
-    ul .home {
-        margin: 0;
+    .barra img{
+        margin-top: 20px;
+        
     }
     .busqueda {
         display: none;
     }
+    .home ul li {
+        font-size: xx-small;
+    }
+
     .logo {
         margin-left: 1.5%;
         margin-top: 5%;
     }
+
     h2 {
+        font-size: x-large;
         margin-top: 5%;
         margin-bottom: 2%;
         margin-left: 0;
     }
-    #generos {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        margin: auto;
-        margin-left: 11%;
-
-    }
-    #generos img{
-        width: 100%;
-    }
-
     h3 {
-        font-size: large;
-        text-align: center;
+        font-size: medium;
     }
 
     .playlistsec {
         display: block;
         text-align: center;
     }
-    
-    .footer li {
-        font-size: smaller;
+    .photo-container{
+        margin: 20px;
+        margin-left: 50px;
     }
+    .footer li {
+        font-size: xx-small
+    }
+    div .iconos ul li {
+        display: none;
+    }
+    .footer img {
+        margin-top: 25px;
+    }
+
     
 }
 
+@media (min-width: 600px) and (max-width: 850px) {
+    .barra {
+        display: grid;
+        font-size: small;
+        width: 100%;
+    }
+    .barra img{
+        margin-top: 0;
+    }
+    .busqueda {
+        display: none;
+    }
+    ul li .home {
+        font-size: xx-small;
+        margin-right: 20px;
+    }
 
-   
+    div ul {
+        margin-left: 20%;
+    }
+
+    .logo {
+        margin-left: 1.5%;
+        margin-top: 5%;
+    }
+
+    h2 {
+        font-size: xx-large;
+        margin-top: 5%;
+        margin-bottom: 2%;
+        margin-left: 0;
+    }
+    h3 {
+        font-size: medium;
+    }
+
+    .playlistsec {
+        display: block;
+        text-align: center;
+    }
+    .photo-container{
+        margin-bottom: 28px;
+        margin-left: 70px;
+    }
+    
+    .footer li {
+        font-size: xx-small
+    }
+    div .iconos ul li {
+        display: none;
+    }
+    .footer img {
+        margin-top: 25px;
+    }
+    
+}
