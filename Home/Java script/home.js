@@ -48,7 +48,7 @@ function showSlides() {
         div.innerHTML += `
         <div class="photo-container">
                
-        <a href="../detalle/detalle.html?id=${albums.id}"><img class="imagenh" src="${albums.cover}" 
+        <a href="../detalle/detallealbum.html?id=${albums.id}"><img class="imagenh" src="${albums.cover}" 
         alt="${albums.title}"><h3> ${albums.title}</h3></a>
             `
 

@@ -324,9 +324,6 @@ h2 {
 }
 
 
-
-
-
 h2 {
     display: block;
     text-align: left;
@@ -447,7 +444,7 @@ h2 {
         margin-top: 25px;
     }
     .slideshow-container {
-        margin-left: 40px;
+        margin: auto;
     }
     
 }
