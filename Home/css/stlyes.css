@@ -27,6 +27,7 @@
     gap: 0px;
 }
 
+
 .busqueda{
     position: absolute;
     margin-left: 30%;
@@ -37,6 +38,25 @@
     padding: 2px;
     border-color: transparent;
 }
+
+#artistas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1px;
+    
+}
+
+#albums{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#tracks{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
 
 .home{
     position: relative;
@@ -198,7 +218,9 @@ h3{
     
     font-family:  'Raleway', sans-serif;
     color: white ;
-    font-size: 60%;
+    font-size: 120%;
+    margin-top: 0px;
+    position: relative;
     
     
     
@@ -207,9 +229,7 @@ h3{
 
 
 .photo-container{
-    position: relative;
-    display: inline-flex;
-    margin: auto;
+    
     
 }
 
@@ -262,13 +282,17 @@ h2 {
     margin-left: 0;
     margin-bottom: 2%;
     text-align: center;
+    gap: 40%;
+    
     
 }
 
 .imagenh{
-    border: solid 5px red;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
+    border-radius: 25%;
+    border: solid 5px #ff0000;
+    width: 50%;
+    
+    
 }
 
 
