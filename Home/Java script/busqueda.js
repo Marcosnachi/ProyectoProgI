@@ -20,15 +20,15 @@ window.onload = function (){
         .then(function(datos){
         console.log (datos)
 
-            let resultados = document.querySelector('.photo-container')
+            let resultados = document.querySelector('.resultados')
             for (let resultado of datos.data)
                 resultados.innerHTML += `
-                <div class="photo-container-resultados">
+                <div class="pc-resultados">
                    
                 <a href="../detalle/detalle.html?id=${resultado.artist.id}"><img src="${resultado.album.cover}" 
-                alt="${resultado.artist.name}"></a>
+                alt="${resultado.artist.name}"><h3> ${resultado.title}</h3></a>
     
-                <div class="text"><h3> ${resultado.title}</h3></div>
+                
                 </div>
     
                 `

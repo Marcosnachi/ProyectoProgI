@@ -209,14 +209,15 @@ h3{
 .photo-container{
     position: relative;
     display: inline-flex;
+    margin: auto;
     
 }
 
-.photo-container-resultados {
-    padding-inline-start: 8px;
+.pc-resultados {
+    display: inline-flex;
     margin-bottom: 20px;
-    position: relative;
 }
+
 
 
 
@@ -318,7 +319,9 @@ h2 {
 }
 
 @media all and (max-width: 600px){
-
+    body{
+        width: 100%;
+    }
     .barra {
         display: grid;
         font-size: x-small;
@@ -341,6 +344,9 @@ h2 {
     }
     h3 {
         font-size: x-small;
+    }
+    .pc-resultados{
+        margin: auto;
     }
 
     .playlistsec {
