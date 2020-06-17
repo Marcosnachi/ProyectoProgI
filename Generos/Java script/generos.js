@@ -10,12 +10,11 @@ window.onload = function () {
         div.innerHTML += `
             <div class="photo-container">
                
-            <a href="../detalle/detallegeneros.html?id=${generos.id}"><img src="${generos.picture}" 
-            alt="${generos.name}"></a>
+            <a href="../detalle/detallegeneros.html?id=${generos.id}"><img class= "imagenh" src="${generos.picture}" 
+            alt="${generos.name}"><h3> ${generos.name}</h3></a>
 
-            <div class="text"><h3> ${generos.name}</h3></div>
+            
             </div>
-
             `
 
 

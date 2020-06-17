@@ -12,6 +12,19 @@
     padding: 1%;
 }
 
+#generos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.imagenh{
+    border-radius: 25%;
+    border: solid 5px #ff0000;
+    width: 50%;
+    
+    
+}
+
 ul .home{
     
     display: grid;
@@ -41,10 +54,14 @@ ul .home{
     position: relative;
     text-align: right;
     gap: 8%;
-    margin-left: 79%;
+    margin-left: 75%;
     margin-right: 5%;
     font-family: 'Magra', sans-serif;
-    margin-top: 30px;
+    margin-top: 35px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 8%;
+    font-size: 19px;
 }
 
 .search{
@@ -61,6 +78,7 @@ a {
     background-color: black;
     padding: 1%;
     font-family: 'Magra', sans-serif;
+    
 }
 
 .footer ul{
@@ -68,14 +86,17 @@ a {
     grid-template-columns: 1fr 1fr 1fr 1fr ;
     text-decoration: none;
     list-style-type: none;
+    margin-left: 20%;
 
 }
 
 .deezer{
-    width: 22%;
-    margin-bottom: 0px;
-    text-align: left;
+    position: absolute; 
+    margin-left: 3%;
+    margin-top: 0%;
+    width: 15%;
 }
+
 input {
     border-color: transparent;
 }
@@ -88,20 +109,19 @@ body{
     background-size: cover;
     background-color: #181818;
 }
-h3 .text{
-    position: absolute;
-    margin-top: 3.5px;
+
+h3{
     font-family:  'Raleway', sans-serif;
     color: white ;
-    font-size: 90%;
-    text-align: center;
-    text-transform: uppercase;
-    display: flex;
+    font-size: 120%;
+    margin-top: 0px;
+    position: relative;
 }
+
 .text{
     color:#f2f2f2;
     position:absolute;
-    bottom:8px;
+    bottom:px;
     width:100%;
     text-align:center;
     font-family: 'Raleway', sans-serif;
@@ -146,11 +166,6 @@ h3 .text{
 
 
 
-.photo-container{
-    position: relative;
-    display: inline-flex;
-}
-
 h2{
    margin-top: 7px;
    margin-left: 2.5px;
@@ -162,10 +177,10 @@ h2{
 }
 
 .photo-container img {
-    width: 240px;
+    
     border-radius: 20%;
     margin-right: 15px;
-    margin-bottom: 50px;
+    
     transition: width 2s, height 2s, transform 2s;
         -moz-transition: width 2s, height 2s, -moz-transform 2s;
         -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
@@ -182,7 +197,7 @@ h2{
 
 
 .playlistsec{
-    display: grid;
+    margin-top: 3%;
     grid-template-columns: 1fr 1fr 1fr;
     margin-left: 0;
     margin-bottom: 2%;
@@ -200,6 +215,7 @@ h2 {
     display: block;
     text-align: left;
     text-transform: uppercase;
+    margin-bottom: 3%;
 }
 
 
