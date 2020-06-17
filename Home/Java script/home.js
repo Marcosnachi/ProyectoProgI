@@ -23,10 +23,10 @@ function showSlides() {
         div.innerHTML += `
             <div class="photo-container">
                
-            <a href="../detalle/detalle.html?id=${artistas.id}"><img src="${artistas.picture}" 
-            alt="${artistas.name}"></a>
+            <a href="../detalle/detalle.html?id=${artistas.id}"><img class="imagenh" src="${artistas.picture}" 
+            alt="${artistas.name}"><h3> ${artistas.name}</h3></a>
 
-            <div class="text"><h3> ${artistas.name}</h3></div>
+            
             </div>
 
             `
@@ -48,10 +48,14 @@ function showSlides() {
         div.innerHTML += `
             <div class="photo-container">
                
-            <a href="../detalle/detallealbum.html?id=${albums.id}"><img src="${albums.cover}" 
-            alt="${albums.title}"></a>
+            <a href="../detalle/detallealbum.html?id=${albums.id}"><img class="imagenh" src="${albums.cover}" 
+            alt="${albums.title}"><h3> ${albums.title}</h3></a>
 
+<<<<<<< HEAD
             <div id= "albums-text" class="text"><h3> ${albums.title}</h3></div>
+=======
+            
+>>>>>>> bc206183ae7acf5e2341a6c530e3af8c3889ea60
             </div>
 
             `
@@ -72,10 +76,10 @@ function showSlides() {
         div.innerHTML += `
             <div class="photo-container">
                
-            <a href="../detalle/detalletracks.html?id=${tracks.id}"><img src="${tracks.album.cover}" 
-            alt="${tracks.title}"></a>
+            <a href="../detalle/detalletracks.html?id=${tracks.id}"><img class="imagenh" src="${tracks.album.cover}" 
+            alt="${tracks.title}"><h3> ${tracks.title}</h3></a>
 
-            <div class="text"><h3> ${tracks.title}</h3></div>
+            
             </div>
 
             `

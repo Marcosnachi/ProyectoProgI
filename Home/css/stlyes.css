@@ -81,6 +81,7 @@ input {
 }
 
 
+
 a {
     text-decoration: none;
     color: white;
@@ -149,17 +150,14 @@ body{
 
 
 
-
 .text{
-    color:#f2f2f2;
-    font-size:15px;
-    padding:8px 12px;
-    position:absolute;
-    bottom:8px;
-    width:100%;
-    text-align:center;
-   }
-   
+    
+    position: absolute;
+    margin-left: 28%;
+    margin-top: 90%;
+    text-align: center;
+}
+
    .numbertext{
     color:#f2f2f2;
     font-size:12px;
@@ -197,20 +195,21 @@ body{
 }
 
 h3{
-    position: absolute;
-    margin-top: 10%;
+    
     font-family:  'Raleway', sans-serif;
     color: white ;
-    font-size: 90%;
-    text-align: center;
-    text-transform: uppercase;
-    display: flex;
+    font-size: 60%;
+    
+    
+    
+    
 }
 
 
 .photo-container{
     position: relative;
     display: inline-flex;
+    
 }
 
 .photo-container-resultados {
@@ -262,7 +261,15 @@ h2 {
     margin-left: 0;
     margin-bottom: 2%;
     text-align: center;
+    
 }
+
+.imagenh{
+    border: solid 5px red;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+
 
 
 .ulfooter{
