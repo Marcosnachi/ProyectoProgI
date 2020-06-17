@@ -223,11 +223,12 @@ h2 {
     }
     .home ul li {
         font-size: xx-small;
+        margin: auto;
     }
 
     .logo {
-        margin-left: 1.5%;
-        margin-top: 5%;
+        margin-left: 3px;
+        margin-top: 10px;
     }
 
     h2 {

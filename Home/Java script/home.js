@@ -46,18 +46,10 @@ function showSlides() {
         for (albums of datos.data) {
         let div = document.getElementById('albums')
         div.innerHTML += `
-            <div class="photo-container">
+        <div class="photo-container">
                
-            <a href="../detalle/detallealbum.html?id=${albums.id}"><img class="imagenh" src="${albums.cover}" 
-            alt="${albums.title}"><h3> ${albums.title}</h3></a>
-
-<<<<<<< HEAD
-            <div id= "albums-text" class="text"><h3> ${albums.title}</h3></div>
-=======
-            
->>>>>>> bc206183ae7acf5e2341a6c530e3af8c3889ea60
-            </div>
-
+        <a href="../detalle/detalle.html?id=${albums.id}"><img class="imagenh" src="${albums.cover}" 
+        alt="${albums.title}"><h3> ${albums.title}</h3></a>
             `
 
 

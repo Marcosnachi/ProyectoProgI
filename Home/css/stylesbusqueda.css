@@ -1,0 +1,147 @@
+.logo{
+    position: absolute; 
+    margin-left: 3%;
+    margin-top: px;
+    width: 11%;
+    margin-bottom: 2px;
+}
+
+.barra{
+    
+    background-color: black;
+    padding: 1%;
+}
+
+.home{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: right;
+    padding: 1px;
+    border: 0px;
+    margin-top: 2%;
+    margin-left: 32%;
+    font-size: 120%;
+    gap: 0px;
+}
+
+.busqueda{
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 2%;
+    background-color: red;
+    border-radius: 2%;
+    border: solid 5px #ff0000;
+    padding: 2px;
+    border-color: transparent;
+}
+
+.home{
+    position: relative;
+    text-align: right;
+    gap: 8%;
+    margin-left: 79%;
+    margin-right: 5%;
+    font-family: 'Magra', sans-serif;
+    margin-top: 30px;
+}
+
+.search{
+    text-align: center;
+}
+
+.boton{
+
+    margin-left: 93%;
+    padding: 25px;
+    margin-top: 1px;
+    background-color: black;
+}
+
+input {
+    border-color: transparent;
+}
+
+.botonon{
+    color:whitesmoke;
+}
+
+
+
+.butonclase{
+    border-radius: 4%;
+}
+
+.botonbus{
+    color:black ;
+    background-color: white;
+    border-color: transparent;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.footer{
+    background-color: black;
+    padding: 1%;
+    font-family: 'Magra', sans-serif;
+}
+
+.footer ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+.deezer{
+    width: 22%;
+    margin-bottom: 0px;
+    text-align: left;
+}
+
+
+body{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #181818;
+}
+.text{
+    
+    position: absolute;
+    margin-left: 28%;
+    margin-top: 90%;
+    text-align: center;
+}
+
+.numbertext{
+    color:#f2f2f2;
+    font-size:12px;
+    padding:8px 12px;
+    position:absolute;
+    top:0;
+}
+h3{ 
+    font-family:  'Raleway', sans-serif;
+    color: white ;
+    font-size: 60%;
+}
+
+.photo-container-resultados {
+    padding-inline-start: 8px;
+    margin-bottom: 20px;
+    position: relative;
+    display: grid;
+}
+
+   

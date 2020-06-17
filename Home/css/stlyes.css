@@ -328,23 +328,19 @@ h2 {
         display: none;
     }
 
-    div ul {
-        margin-left: 20%;
-    }
-
     .logo {
         margin-left: 1.5%;
         margin-top: 5%;
     }
 
     h2 {
-        font-size: medium;
+        font-size: x-large;
         margin-top: 5%;
         margin-bottom: 2%;
         margin-left: 0;
     }
     h3 {
-        font-size: small;
+        font-size: x-small;
     }
 
     .playlistsec {
@@ -352,8 +348,10 @@ h2 {
         text-align: center;
     }
     .photo-container{
-        margin: 20px;
+        margin: auto;
+        text-align: center;
     }
+   
     .footer li {
         font-size: xx-small
     }
@@ -364,7 +362,7 @@ h2 {
         margin-top: 25px;
     }
     .slideshow-container {
-        margin-left: 40px;
+        margin: auto;
         size: 200px;
     }
     
