@@ -247,7 +247,14 @@ button:hover {
 }
 
 @media (max-width: 600px){
-  div .infodelartista img {
-    width: 200px;
-    }
+  body {
+    width: 100%;
+  }
+  div .headerdelartista{
+    display: none;
+  }
+  .infodelartista-2{
+    font-size: xx-large;
+  }
+
 }
