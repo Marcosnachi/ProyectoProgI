@@ -405,6 +405,7 @@ h2 {
     }
     .pc-resultados img{
         width: 70%;
+        margin-right: 5%;
         border: solid 2,5px ;
     }
     .textoresul{
