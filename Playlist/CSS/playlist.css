@@ -17,13 +17,26 @@
   text-decoration: none;
   list-style-type: none;
   justify-content: right;
-  padding: 10px;
+  padding: 1px;
   border: 0px;
   margin-top: 2px;
   margin-left: 32px;
   font-size: 120%;
   gap: 0px;
 }
+
+.home{
+  position: relative;
+  text-align: right;
+  gap: 8%;
+  margin-left: 79%;
+  margin-right: 5%;
+  font-family: 'Magra', sans-serif;
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns:  1fr 1fr 1fr;
+}
+
   
 
 .busqueda{
@@ -80,12 +93,14 @@ display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr ;
 text-decoration: none;
 list-style-type: none;
+margin-left: 28%;
 
 }
 .deezer{
-width: 22%;
-margin-bottom: 0px;
-text-align: left;
+  position: absolute;
+    margin-left: 3%;
+    margin-top: 0%;
+    width: 15%;
 }
 /*fin footer*/ 
 body {
