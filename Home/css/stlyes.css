@@ -146,6 +146,10 @@ body{
     display:none;
 }
 
+.resultadotitulo {
+    font-size: x-small;
+}
+
 .prev, .next{
     cursor:pointer;
     position:absolute;
@@ -365,7 +369,15 @@ h2 {
         font-size: x-small;
     }
     .pc-resultados{
+        margin-left: 10%;
+    }
+    .pc-resultados img{
+        size: 20px;
+    }
+
+    div .resultados{
         margin: auto;
+        gap: 50px;
     }
 
     .playlistsec {
