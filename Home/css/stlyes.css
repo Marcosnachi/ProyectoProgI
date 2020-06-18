@@ -400,15 +400,22 @@ h2 {
         font-size: x-small;
     }
     .pc-resultados{
-        margin-left: 10%;
+        margin: 0;
+        font-size: x-small
     }
     .pc-resultados img{
-        size: 20px;
+        width: 70%;
+        border: solid 2,5px ;
+    }
+    .textoresul{
+        font-size: 15px;
     }
 
     div .resultados{
         margin: auto;
-        gap: 50px;
+    }
+    .iconos {
+        display: none;
     }
 
     .playlistsec {
@@ -469,6 +476,9 @@ h2 {
     }
     h3 {
         font-size: small;
+    }
+    .titulito {
+        font-size: xx-large;
     }
 
     .playlistsec {
