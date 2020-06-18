@@ -6,7 +6,6 @@
   margin-bottom: 2px;
 }
 
-
   
 .barra{
   background-color: black;
@@ -267,6 +266,27 @@ button:hover {
   body {
     width: 100%;
   }
+
+  .barra{
+    display: grid;
+    font-size: x-small;
+    width: 100%;
+    margin-right: 100px;
+
+
+  }
+
+
+.logo{
+  width: 100px;
+}
+
+.busqueda.input{
+  margin-left: 180px;
+  margin-top: 13px;
+  
+}
+
   div .barra{
     display: inline-block;
   }
