@@ -263,9 +263,14 @@ button:hover {
 }
 
 @media all and (max-width: 600px){
-  body {
+  /*header y general*/
+  body{
+      width: 100%;
+  }
+  html{
     width: 100%;
   }
+<<<<<<< HEAD
 
   .barra{
     display: grid;
@@ -289,17 +294,82 @@ button:hover {
 
   div .barra{
     display: inline-block;
+=======
+  .logo{
+    margin-top: 25px;
   }
-  div .headerdelartista{
-    display: inline-block;
-    font-size: xx-large;
+  .barra {
+      margin: 0;
+      font-size: smaller;
+      margin-right: 300px;
+      gap: 10px;
   }
-  .infodelartista-2{
-    font-size: xx-large;
+  .profile__img img{
+    size: 150px;
   }
-  div .iconos .fut {
+  .busqueda{
     display: none;
   }
+  .iconos {
+    display: none;
+  }
+  .headerdelartista{
+    margin: 0;
+>>>>>>> fc7d3612002d5dfce4ad3ec2169497faa1c308d5
+  }
+  .footer{
+    font-size: x-small;
+    margin: 0;
+  }
+  .cancionindividual{
+    font-size: smaller;
+  }
+  .rereproduccionesdecancion{
+    display: none;
+  }
+  .titulodealbum{
+    font-size: xx-small;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 850px) {
+/*header y general*/
+body{
+  width: 100%;
+}
+html{
+width: 100%;
+}
+.logo{
+margin-top: 25px;
+}
+.barra {
+  margin: 0;
+  font-size: smaller;
+  margin-right: 300px;
+  gap: 10px;
+}
+div .profile__img img {
+width: 300px;
+}
+.busqueda{
+  display: none;
+}
+.rereproduccionesdecancion{
+  display: none;
+}
+.cancionindividual{
+  height: fit-content;
+}
+.imagenesdecancion img{
+  width: 50px;
+}
+.headerdelartista{
+  margin: 0;
+}
+.iconos {
+  display: none;
+}
 
 }
 
