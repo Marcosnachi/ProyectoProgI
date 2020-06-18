@@ -270,31 +270,6 @@ button:hover {
   html{
     width: 100%;
   }
-<<<<<<< HEAD
-
-  .barra{
-    display: grid;
-    font-size: x-small;
-    width: 100%;
-    margin-right: 100px;
-
-
-  }
-
-
-.logo{
-  width: 100px;
-}
-
-.busqueda.input{
-  margin-left: 180px;
-  margin-top: 13px;
-  
-}
-
-  div .barra{
-    display: inline-block;
-=======
   .logo{
     margin-top: 25px;
   }
@@ -315,7 +290,6 @@ button:hover {
   }
   .headerdelartista{
     margin: 0;
->>>>>>> fc7d3612002d5dfce4ad3ec2169497faa1c308d5
   }
   .footer{
     font-size: x-small;

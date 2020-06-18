@@ -455,7 +455,7 @@ margin-left: 20%;
         }
         .barra {
             margin: 0;
-            font-size: smaller;
+            font-size: x-small;
             margin-right: 300px;
             gap: 10px;
         }
@@ -490,11 +490,14 @@ margin-left: 20%;
          display: none;
        }
        .deezer{
-         width: 90px;
+         width: 70px;
          margin-top: 12x;
        }
        .cancionindividual{
          height: fit-content;
+       }
+       .footer{
+         font-size: x-small;
        }
        .tituloselecto{
          font-size: larger;
@@ -509,7 +512,7 @@ margin-left: 20%;
          width: 50px;
        }
        .titulodealbum{
-         font-size: medium;
+         font-size: x-small;
        }
         
     }
