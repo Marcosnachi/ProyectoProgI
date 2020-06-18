@@ -458,6 +458,8 @@ h2 {
     }
     .slideshow-container {
         margin: auto;
+        width: auto;
+        text-align: center;
     }
     
 }
