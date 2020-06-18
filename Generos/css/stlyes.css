@@ -230,17 +230,22 @@ h2 {
         display: grid;
         width: 100%;
     }
+    ul li{
+        text-align: center;
+        font-size: x-small;
+    }
+    .home{
+        margin-right: 100px;
+    }
+    h2{
+        font-size: x-large;
+    }
     .barra img{
         margin-top: 20px;
         
     }
     .busqueda {
-        display: none;
-    }
-    .home ul li {
-        font-size: xx-small;
-        margin: auto;
-    }
+        display: none; }
 
     .logo {
         margin-left: 3px;
@@ -257,13 +262,15 @@ h2 {
         font-size: medium;
     }
 
-    .playlistsec {
-        display: block;
-        text-align: center;
+    div .generos {
+        display: grid;
     }
     .photo-container{
-        margin: 20px;
-        margin-left: 50px;
+        margin: 10px 3px;
+        
+    }
+    .photo-container img{
+        width: 90px;
     }
     .footer li {
         font-size: xx-small
