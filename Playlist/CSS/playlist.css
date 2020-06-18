@@ -261,3 +261,8 @@ button:hover {
   border: 1px solid #d71e1e;
 }
 
+@media (max-width: 600px){
+  div .infodelartista img {
+    width: 200px;
+    }
+}

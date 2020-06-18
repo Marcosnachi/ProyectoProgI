@@ -324,9 +324,6 @@ h2 {
 }
 
 
-
-
-
 h2 {
     display: block;
     text-align: left;
@@ -346,6 +343,7 @@ h2 {
     .barra {
         display: grid;
         font-size: x-small;
+        margin-right: 40px;
         width: 100%;
     }
     .busqueda {
@@ -390,7 +388,7 @@ h2 {
     }
     .slideshow-container {
         margin: auto;
-        size: 200px;
+        width: 100%;
     }
     
 }
@@ -447,7 +445,7 @@ h2 {
         margin-top: 25px;
     }
     .slideshow-container {
-        margin-left: 40px;
+        margin: auto;
     }
     
 }
