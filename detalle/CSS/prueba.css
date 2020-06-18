@@ -156,22 +156,7 @@ margin-left: 20%;
       align-items: flex-end;
     }
     
-    .headerdelartista:before { 
-      display: block;
-      position: absolute;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      z-index: 0;
-      content: ' ';
-      opacity: 0.15;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: top;
-    }
-
-
+    
     .headerdelartista .infoseguidores {
       color: #aaaaaa;
       text-transform: uppercase;
@@ -458,43 +443,139 @@ margin-left: 20%;
 
 
       @media all and (max-width: 600px){
+        /*header y general*/
         body{
             width: 100%;
         }
+        html{
+          width: 100%;
+        }
+        .logo{
+          margin-top: 25px;
+        }
         .barra {
-            display: grid;
-            font-size: x-small;
-            width: 100%;
-            margin-right: 40px;
+            margin: 0;
+            font-size: smaller;
+            margin-right: 300px;
+            gap: 10px;
         }
-        .busqueda {
-            display: none;
+        div .profile__img img {
+          width: 300px;
         }
-        audio{
+        button{
+          width: 99px;
+          margin: auto;
+          font-size: 17x;
+        }
+        .boton-mas{
+          font-size: x-small;
+        }
+        .headerdelartista{
+          display: inline;
+        }
+        .infodelartista-3{
           display: none;
         }
-        .logo {
-            margin-left: 1.5%;
-            margin-top: 5%;
+        .infoseguidores{
+          margin-bottom: 0;
         }
-       
-        .footer li {
-            font-size: xx-small
+        .busqueda{
+          display: none;
         }
-        div .iconos ul li {
-            display: none;
-        }
-        .footer img {
-            margin-top: 25px;
-        }
+        /*abajo*/
+       audio{
+         display: none;
+       }
+       .iconos{
+         display: none;
+       }
+       .deezer{
+         width: 90px;
+         margin-top: 12x;
+       }
+       .cancionindividual{
+         height: fit-content;
+       }
+       .tituloselecto{
+         font-size: larger;
+       }
+       .titulodecancion {
+         font-size: medium;
+       }
+       .rereproduccionesdecancion{
+         display: none;
+       }
+       .imagenesdecancion img{
+         width: 50px;
+       }
+       .titulodealbum{
+         font-size: medium;
+       }
         
     }
     
     @media (min-width: 600px) and (max-width: 850px) {
-      body html {
+      /*header y general*/
+      body{
         width: 100%;
-      }
-      .busqueda {
-        display: none;
-      }
+    }
+    html{
+      width: 100%;
+    }
+    .logo{
+      margin-top: 25px;
+    }
+    .barra {
+        margin: 0;
+        font-size: smaller;
+        margin-right: 300px;
+        gap: 10px;
+    }
+    div .profile__img img {
+      width: 300px;
+    }
+    .boton-mas{
+      font-size: x-small;
+    }
+    .headerdelartista{
+      display: inline;
+    }
+    .infodelartista-3{
+      display: none;
+    }
+    .infoseguidores{
+      margin-bottom: 0;
+    }
+    .busqueda{
+      display: none;
+    }
+    /*abajo*/
+   .iconos{
+     display: none;
+   }
+   .deezer{
+     width: 90px;
+     margin-top: 12x;
+   }
+   .infodelartista-4{
+     font-size: large;
+   }
+   .cancionindividual{
+     height: fit-content;
+   }
+   .tituloselecto{
+     font-size: larger;
+   }
+   .titulodecancion {
+     font-size: medium;
+   }
+   .rereproduccionesdecancion{
+     font-size: medium;
+   }
+   .imagenesdecancion img{
+     width: 50px;
+   }
+   .titulodealbum{
+     font-size: medium;
+   }
     }
