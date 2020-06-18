@@ -305,7 +305,9 @@ margin-left: 20%;
     .contenidodelartista .artista-repasogeneral .latest-release__song__title {
       color: #c8c8c8;
     }
-  
+    .deezer{
+      width: 6%;
+    }
     .contenidodelartista .overview__related {
       width: 30%;
     }
@@ -463,9 +465,13 @@ margin-left: 20%;
             display: grid;
             font-size: x-small;
             width: 100%;
+            margin-right: 40px;
         }
         .busqueda {
             display: none;
+        }
+        audio{
+          display: none;
         }
         .logo {
             margin-left: 1.5%;
