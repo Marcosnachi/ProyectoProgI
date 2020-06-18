@@ -72,6 +72,37 @@
     text-align: center;
 }
 
+
+.resultados{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    margin-left: 10%;
+    margin-top: 4%;
+    
+
+}
+
+pc.resultados{
+    width: 100%;
+    box-sizing: 100%;
+    
+}
+
+h3.textoresul{
+    font-size: 13px;
+    text-align: center;
+}
+
+.imagenbus{
+    border: solid 5px #ff0000;
+    border-radius: 25%;
+    width: 200px;
+    
+    
+}
+
+
+
 .boton{
 
     margin-left: 93%;
@@ -173,7 +204,6 @@ body{
 
 
 
-
 .text{
     
     position: absolute;
@@ -225,6 +255,7 @@ h3{
     font-size: 120%;
     margin-top: 0px;
     position: relative;
+    
     
     
     

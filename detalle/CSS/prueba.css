@@ -64,6 +64,12 @@
   border-radius: 50%;
 }
 
+#audio{
+  border: solid 5px red;
+  border-radius: 2%;
+  background-color: red;
+  
+}
   
   .home{
     position: relative;

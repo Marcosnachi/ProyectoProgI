@@ -25,8 +25,8 @@ window.onload = function (){
                 resultados.innerHTML += `
                 <div class="pc-resultados">
                    
-                <a href="../detalle/detalletracks.html?id=${resultado.id}"><img src="${resultado.album.cover}" 
-                alt="${resultado.artist.name}"><h3 class="resultadotitulo"> ${resultado.title}</h3></a>
+                <a href="../detalle/detalletracks.html?id=${resultado.id}"><img class="imagenbus" src="${resultado.album.cover}" 
+                alt="${resultado.artist.name}"><h3 class="textoresul"> ${resultado.title}</h3></a>
     
                 
                 </div>
