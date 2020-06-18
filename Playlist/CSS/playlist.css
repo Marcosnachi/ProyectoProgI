@@ -263,15 +263,22 @@ button:hover {
   border: 1px solid #d71e1e;
 }
 
-@media (max-width: 600px){
+@media all and (max-width: 600px){
   body {
     width: 100%;
   }
+  div .barra{
+    display: inline-block;
+  }
   div .headerdelartista{
-    display: none;
+    display: inline-block;
+    font-size: xx-large;
   }
   .infodelartista-2{
     font-size: xx-large;
+  }
+  div .iconos .fut {
+    display: none;
   }
 
 }
