@@ -516,4 +516,18 @@ text-align: left;
         .headerdelartista .infodelartista {
           font-size: large;
       }
+      html, body {
+        height: 100%;
+    }
+    
+    html {
+        overflow-y: hidden;
+    }
+    
+    body {
+        overflow-y: scroll;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
     }
